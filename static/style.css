@@ -1,0 +1,63 @@
+body {
+	background-color: #eeeeee;
+	font-family: 'Open Sans';
+}
+
+h1 {
+	color: #444444;
+}
+
+p {
+	color: #555555;
+	size: 14px;
+}
+
+
+#navbarul {
+	/* stuff */
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+	/* size stuff */
+	width: 20%;
+	height: 100%;
+	
+	/* colors */
+	color: black;
+	background-color: white;
+	
+	/* "Sticky" sidebar */
+	position: fixed;
+	overflow: auto;
+}
+#navbarli {
+	display: block;
+	color: black;
+	padding: 8px 16px;
+	
+	border-bottom: 1px solid 0xcccccc;
+}
+
+#navbarli:hover {
+	background-color: #1bb5b5;
+	color: white;
+}
+
+
+#topbarul {
+
+}
+
+#navbarli {
+
+}
+
+#navbarli:hover {
+
+}
+
+.title {
+	display: block;
+	background-color: 0x1bb5b5;
+}
