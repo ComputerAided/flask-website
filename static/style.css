@@ -13,7 +13,7 @@ p {
 }
 
 
-#navbarul {
+.navbarside {
 	/* stuff */
 	list-style-type: none;
 	margin: 0;
@@ -31,7 +31,7 @@ p {
 	position: fixed;
 	overflow: auto;
 }
-#navbarli {
+.navbarside li {
 	display: block;
 	color: black;
 	padding: 8px 16px;
@@ -39,25 +39,40 @@ p {
 	border-bottom: 1px solid 0xcccccc;
 }
 
-#navbarli:hover {
+.navbarside li:hover {
 	background-color: #1bb5b5;
 	color: white;
 }
 
 
-#topbarul {
-
+.navbartop {
+	background-color: #333;
+	
+	/* "Sticky" sidebar */
+	position: sticky;
+	top: 0;
 }
 
-#navbarli {
-
+.navbartop a {
+	color: #dfdfdf;
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
-#navbarli:hover {
-
+.navbartop a:hover {
+	background-color: #ddd;
+	color: black;
 }
 
 .title {
-	display: block;
 	background-color: 0x1bb5b5;
+	text-align: center;
+}
+
+.navbartop .icon {
+	display: none;
 }
